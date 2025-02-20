@@ -1,7 +1,6 @@
 from tkinter import *
 import random
 
-# Game logic
 def play(user_choice):
     choices = ["Rock", "Paper", "Scissors"]
     computer_choice = random.choice(choices)
@@ -19,7 +18,6 @@ def play(user_choice):
 
     label_result["text"] = "Computer: " + computer_choice + "\n" + result
 
-# GUI
 root = Tk()
 root.title("Rock Paper Scissors")
 
